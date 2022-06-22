@@ -6,12 +6,12 @@ import moment from 'moment-timezone'
 global.owner = [
   ['+6285706735450'],
   ['+6283869803330'],
-  ['+0'],
-  ['+0'],
+  ['+6285706735450'],
+  ['+6285706735450'],
   ['+6285706735450', 'Verdi xzy', true],
   ['+6283869803330', 'Bot XziroID', true],
-  ['+0', 'PIHAK WA', true],
-  ['+0', 'PIHAK WA', true],
+  ['+6285706735450', 'creator', true],
+  ['+6285706735450', 'creator WA', true],
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -52,7 +52,7 @@ global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:m
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
 `
 
-global.author = '                「 ꜱᴀᴅ BOT あ⁩ 」'
+global.author = '                「 Xziro BOT あ⁩ 」'
 
 global.thumbnailUrl = [
   'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg', 'https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
@@ -68,7 +68,7 @@ global.flaaa = [
  'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
  'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='
 ]
-global.sgc = 'https://chat.whatsapp.com/HFdZ0islM3x5Y7eQpUQVU8'
+global.sgc = 'https://chat.whatsapp.com/JLJaC7zJVn82DvJ5ePXzcd'
 global.sig = 'https://instagram.com/VERDI_ZZ'
 
 //Ini cuma simpenan owner kanna kok :v
