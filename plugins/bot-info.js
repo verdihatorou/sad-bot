@@ -52,7 +52,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
   let neww = performance.now()
   let speed = neww - old
     conn.sendHydrated(m.chat, 
-    '*––––––『 BOT INFO 』––––––*', 
+    '*––––––『 BOT INFO🙄 』––––––*', 
 `🤖 ɴᴀᴍᴇ: ${_package.name}
 🧩 ᴠᴇʀsɪᴏɴ: ${_package.version}
 📚 ʟɪʙʀᴀʀʏ: ${_package.description}
@@ -73,7 +73,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
 ⮕ ${groupsIn.length - groupsIn.length} - Groups Left
 ⮕ ${chats.length - groupsIn.length} - Personal Chats
 ⮕ ${chats.length} - Total Chats
-`.trim(), './media/botinfo.jpg', 'https://github.com/FahriAdison/Sad-Multi-Device', 'ʙᴏᴛ sᴄʀɪᴩᴛ', null, null, [
+`.trim(), './media/botinfo.jpg', 'https://github.com/FahriAdison & https://github.com/VERDIBOTZ1', 'ʙᴏᴛ sᴄʀɪᴩᴛ', null, null, [
 [`ᴏᴡɴᴇʀ`, `${usedPrefix}owner`],
 [`ᴅᴏɴᴀᴛᴇ`, `${usedPrefix}donate`]
 ], m, {asLocation: true})
